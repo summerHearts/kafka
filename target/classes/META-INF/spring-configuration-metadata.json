@@ -1,0 +1,43 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "org.whale.cbc.kafka.config.KafkaConfig",
+      "name": "kafka",
+      "type": "org.whale.cbc.kafka.config.KafkaConfig"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "org.whale.cbc.kafka.config.KafkaConfig",
+      "name": "kafka.application-context",
+      "type": "org.springframework.context.ApplicationContext"
+    },
+    {
+      "sourceType": "org.whale.cbc.kafka.config.KafkaConfig",
+      "name": "kafka.consumer-propertise-path",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.whale.cbc.kafka.config.KafkaConfig",
+      "name": "kafka.producer-handler",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.whale.cbc.kafka.config.KafkaConfig",
+      "name": "kafka.producer-propertise-path",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.whale.cbc.kafka.config.KafkaConfig",
+      "defaultValue": 1000,
+      "name": "kafka.thread-nums",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.whale.cbc.kafka.config.KafkaConfig",
+      "name": "kafka.topic-handler-map",
+      "type": "java.util.Map<java.lang.String,java.lang.String>"
+    }
+  ]
+}

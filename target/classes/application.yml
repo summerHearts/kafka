@@ -1,0 +1,11 @@
+kafka:
+  consumerPropertisePath: classpath:properties/customer.properties
+  topicHandlerMap:
+    test4_topic_1: consumerHandlerImpl
+    test4_topic_2: consumerHandlerImpl
+    test4_topic_3: consumerHandlerImpl
+    AKyS         : consumerHandlerImpl
+    test_topic_1 : consumerHandlerImpl
+  producerPropertisePath: classpath:properties/producer.properties
+  producerHandler: producerHandlerImpl
+  threadNums: 1000
